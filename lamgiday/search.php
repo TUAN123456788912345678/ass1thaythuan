@@ -141,9 +141,9 @@
 <body style="background-color:black">
     <div class="wrapper">
         <div class="header">
-            <img src="https://e7.pngegg.com/pngimages/906/87/png-clipart-technology-computer-icons-symbol-high-tech-technology-angle-electronics.png" />
+            <img src="https://brademar.com/wp-content/uploads/2022/05/LEGO-Logo-PNG-1998-–-Now-2.png" />
             <a href="">
-              <div class="cart"> 
+              <div class="cart">
                   <img style="float:right" id="cart" src="X/cart.png" />
               </div>
             </a>
@@ -166,8 +166,8 @@
         <?php
             }
         ?>
-        <div class="banner">
-            <img src="https://zshop.vn/blogs/wp-content/uploads/2017/09/mon-do-cong-nghe.png" alt="Slideshow Image 1" />
+       <div class="banner">
+            <img src="https://img.freepik.com/free-vector/flat-design-background-christmas-toys_23-2148355805.jpg?w=2000" alt="Slideshow Image 1" />
         </div>
         <div class="menu">
             <ul>
@@ -178,7 +178,7 @@
                 <li><a href="register.php" target="_blank">Register</a></li>
             </ul>
         </div>
-        <div class="content">
+       <div class="content">
             <div class="left">
                 <p>Function</p>
                 <div class="category">
@@ -189,17 +189,17 @@
                 <p>Product</p>
                 <div class="category">
                     <ul>
-                        <li><a href="">Tablet</a></li>
-                        <li><a href=""target="_blank">Smartphone</a></li>
-                        <li><a href="">Laptop</a></li>
+                        <li><a href="">Dolls</a></li>
+                        <li><a href=""target="_blank">LEGO</a></li>
+                        <li><a href="">Puzzles</a></li>
                     </ul>
                 </div>
                 <p>Brand</p>
                 <div class="brand">
                     <ul>
-                        <li><a href="">Apple</a></li>
-                        <li><a href="">Samsung</a></li>
-                        <li><a href="">Nokia</a></li>
+                        <li><a href="">Lego</a></li>
+                        <li><a href="">Bandai Namco</a></li>
+                        <li><a href="">Barbie</a></li>
                     </ul>
                 </div>
             </div>
