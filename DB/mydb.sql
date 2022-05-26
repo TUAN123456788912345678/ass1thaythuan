@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th5 21, 2022 lúc 05:59 AM
+-- Thời gian đã tạo: Th5 21, 2022 lúc 06:11 AM
 -- Phiên bản máy phục vụ: 10.4.21-MariaDB
 -- Phiên bản PHP: 7.4.25
 
@@ -46,6 +46,32 @@ INSERT INTO `product` (`product_id`, `product_name`, `product_price`, `product_i
 (5, 'Samsung Galaxy S21', '$1000', 'S21.jpg'),
 (6, 'Samsung Galasy Z Flip 3', '$2000', 'ZF3.jpg');
 
+-- --------------------------------------------------------
+
+--
+-- Cấu trúc bảng cho bảng `user`
+--
+
+CREATE TABLE `user` (
+  `user_id` int(11) NOT NULL,
+  `username` varchar(100) NOT NULL,
+  `password` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Đang đổ dữ liệu cho bảng `user`
+--
+
+INSERT INTO `user` (`user_id`, `username`, `password`) VALUES
+(1, 'Quang', '123'),
+(2, 'Nhat', '121'),
+(3, 'Xuan', '111'),
+(4, 'Luong', '142'),
+(5, 'Ta', '134'),
+(6, 'Ngao', '153'),
+(7, 'Nang', '198'),
+(8, 'Ngo', '1898');
+
 --
 -- Chỉ mục cho các bảng đã đổ
 --
@@ -55,6 +81,12 @@ INSERT INTO `product` (`product_id`, `product_name`, `product_price`, `product_i
 --
 ALTER TABLE `product`
   ADD PRIMARY KEY (`product_id`);
+
+--
+-- Chỉ mục cho bảng `user`
+--
+ALTER TABLE `user`
+  ADD PRIMARY KEY (`user_id`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
